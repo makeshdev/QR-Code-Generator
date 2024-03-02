@@ -1,0 +1,58 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.qrBox {
+  min-width: 500px;
+  text-align: center;
+  background-color: #edffef;
+  color: #62b96c;
+  padding: 30px;
+}
+.qrBox h2 {
+  margin: 0 0 10px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+.inputSec {
+  text-align: left;
+  display: grid;
+  padding-top: 15px;
+}
+.inputSec label {
+  font-size: 12px;
+}
+.inputSec input {
+  padding: 10px;
+  border: 1px solid #62b96c;
+  margin-top: 3px;
+}
+.inputSec input:active {
+  border: 1px solid #62b96c;
+}
+.buttonSec {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-top: 20px;
+}
+.buttonSec .primary {
+  padding: 5px 15px;
+  background: #62b96c;
+  color: #fff;
+  border: 1px solid #62b96c;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.buttonSec .secondary {
+  padding: 5px 15px;
+  background: #fff;
+  color: #62b96c;
+  border: 1px solid #62b96c;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
